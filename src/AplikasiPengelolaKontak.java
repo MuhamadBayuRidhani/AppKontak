@@ -1,3 +1,16 @@
+
+import controller.KontakController;
+import javax.swing.table.DefaultTableModel;
+import controller.KontakController;
+import java.io.*;
+import model.Kontak;
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -8,12 +21,18 @@
  * @author WINDOWS
  */
 public class AplikasiPengelolaKontak extends javax.swing.JFrame {
+    
+    private DefaultTableModel model;
+    private KontakController controller;
 
     /**
      * Creates new form AplikasiPengelolaKontak
      */
     public AplikasiPengelolaKontak() {
         initComponents();
+     
+
+        
     }
 
     /**
